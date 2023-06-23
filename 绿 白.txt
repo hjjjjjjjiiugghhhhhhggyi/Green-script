@@ -24,7 +24,7 @@ elseif a=="用户名"then
 _G.she=true
 elseif a=="用户名"then
 _G.she=true
-elseif a=="用户名"then
+elseif a=="syxhsxd"then
 _G.she=true
 elseif a=="shhdjldn"then
 _G.she=true
