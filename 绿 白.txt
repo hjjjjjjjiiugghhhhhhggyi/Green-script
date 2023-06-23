@@ -20,9 +20,9 @@ elseif a=="用户名"then
 _G.she=true
 elseif a=="用户名"then
 _G.she=true
-elseif a=="用户名"then
+elseif a=="udjhgushu"then
 _G.she=true
-elseif a=="用户名"then
+elseif a=="fengmoshike"then
 _G.she=true
 elseif a=="syxhsxd"then
 _G.she=true
