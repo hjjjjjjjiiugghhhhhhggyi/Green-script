@@ -1646,6 +1646,46 @@ tool:Button("伐木大亨2",function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/LuaWareLoader.lw/main/luawareloader.wtf",true))()
 end)
 
+local creds = window:Tab("监狱人生",'6035145364')
+
+local tool = creds:section("功能",true)
+
+tool:Button("变车模型",function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/cbhlyy/lyycbh/main/bianche"))()
+end)
+
+tool:Button("坤坤剑",function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/cbhlyy/lyycbh/main/jianyu1"))()
+end)
+
+tool:Toggle("杀死全部",function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/cbhlyy/lyycbh/main/jianyu2"))()
+end)
+
+tool:Button("无敌模式",function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/cbhlyy/lyycbh/main/jianyu4"))()
+end)
+
+tool:Button("手拿电锯",function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/cbhlyy/lyycbh/main/jianyu3", true))()
+end)
+
+tool:Button("传送到警卫室",function()
+       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(847.7261352539062, 98.95999908447266, 2267.387451171875)
+end)
+
+tool:Button("传送到监狱室内",function()
+       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(919.2575073242188, 98.95999908447266, 2379.74169921875)
+end)
+
+tool:Button("传送罪犯复活点",function()
+       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-937.5891723632812, 93.09876251220703, 2063.031982421875)
+end)
+
+tool:Button("传送到监狱室外",function()
+       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(760.6033325195312, 96.96992492675781, 2475.405029296875)
+end)
+
 local fps = fps:section("fps ping",true)
 
 fps:Button("ping",function()
@@ -1720,12 +1760,12 @@ end)
   wait(3)
   --你的脚本
     else
-setclipboard("QQ群")
+setclipboard("2099718854")
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
     Title = "验证失败",
-    Text = "你并没有白名单已复制链接加入群获得白名单",
+    Text = "你并没有白名单已复制链接加qq获得白名单",
     Duration = 10,
 })
 end
