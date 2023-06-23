@@ -1935,6 +1935,14 @@ else tool.Text="关"
         end
     end)
 
+local creds = window:Tab("鲨口求生2",'6035145364')
+
+local tool = creds:section("功能",true)
+
+tool:Button("自动杀鲨鱼",function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Sw1ndlerScripts/RobloxScripts/main/Misc%20Scripts/sharkbite2.lua",true))()
+end)
+
 local fps = fps:section("fps ping",true)
 
 fps:Button("ping",function()
