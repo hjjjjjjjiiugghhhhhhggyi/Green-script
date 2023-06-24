@@ -1,0 +1,39 @@
+local CoreGui = game:GetService("StarterGui")
+CoreGui:SetCore("SendNotification", {
+    Title = "正在检查您是否已经被加入白名单里",
+    Text = "检测中...",
+    Duration = 5,
+})
+
+wait(3)
+
+qjbdbmd = {
+    "Move_C",
+    "shhdjldn",
+    "fengmoshike",
+    "syxhsxd",
+    "HelloChina598",
+    "wezega",
+    "jbf584",
+    "udjhgushu",
+    "hhbhhhhhhhhhl",
+    "zzzzzzzzpappaapap",
+    "ggttjshs1"
+}
+if table.find(qjbdbmd, game.Players.LocalPlayer.Name) then
+   local CoreGui = game:GetService("StarterGui")
+CoreGui:SetCore("SendNotification", {
+    Title = "检测结果",
+    Text = "检测到您("..game.Players.LocalPlayer.Name..")已经被加入白名单，开始启动菜单",
+    Duration = 5,
+    })
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hjjjjjjjiiugghhhhhhggyi/Green-script/main/%E7%BB%BF%20%E7%99%BD.txt",true))()
+    else 
+  setclipboard("850765605")
+      local CoreGui = game:GetService("StarterGui")
+CoreGui:SetCore("SendNotification", {
+    Title = "检测结果",
+    Text = "检测到您未被加入白名单，已自动复制QQ群群号，去里面让群主把你加入到白名单里",
+    Duration = 5,
+})
+end
