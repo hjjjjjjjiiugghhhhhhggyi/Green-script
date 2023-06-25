@@ -1394,7 +1394,7 @@ end
     end
     
     
-local window = library:new("🌲绿🌲")
+local window = library:new("绿🌲")
 
 local creds = window:Tab("信息",'6035145364')
 
@@ -1542,19 +1542,15 @@ local creds = window:Tab("脚本",'6035145364')
 local tool = creds:section("脚本",true)
 
 tool:Button("神光",function()
-        _G["神光脚本重置"]="202305,qwesdfxcvpoikjhnbvqwertyuiopzxcvbnmqazdrfvhujmkoasxcghnmlknbgfxz,SG"loadstring(game:HttpGet(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,112,97,115,116,101,98,105,110,46,99,111,109,47,114,97,119,47,56,102,50,76,99,113,113,80})end)())))()
+        loadstring(game:HttpGet(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,112,97,115,116,101,98,105,110,46,99,111,109,47,114,97,119,47,56,102,50,76,99,113,113,80})end)())))()
 end)
 
-tool:Button("白灰",function()
-        _G.Clouduilib = "白灰脚作者小云，加载出十几秒" loadstring(game:HttpGet("https://raw.githubusercontent.com/CloudX-ScriptsWane/White-ash-script/main/%E7%99%BD%E7%81%B0%E8%84%9A%E6%9C%ACbeta.lua", true))()
+tool:Button("秋",function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/WS857960/nb/main%E7%A7%8B%C2%B7%E8%87%AA%E5%88%B6%E8%84%9A%E6%9C%AC.txt"))()
 end)
 
 tool:Button("龙",function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/bXApbsu8")()
-end)
-
-tool:Button("秋脚本",function()
-        _G["秋·自制脚本，加强加密"]="20230619,qwesdfxcvpoikjhnbvqwertyuiopzxcvbnmqazdrfvhujmkoasxcghnmlknbgfxz,HYDQJB,WS857960"loadstring(game:HttpGet("https://raw.githubusercontent.com/WS857960/nb/main/%E7%A7%8B%C2%B7%E8%87%AA%E5%88%B6%E8%84%9A%E6%9C%AC.txt"))()
+        loadstring(game:HttpGet "https://pastebin.com/raw/bXApbsu8")()
 end)
 
 tool:Button("伐木大亨白脚本",function()
@@ -1984,3 +1980,16 @@ credits:Toggle("afk", "", false, function(state)
 		   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 		end)
 end)
+
+  wait(3)
+  --你的脚本
+    else
+setclipboard("2099718854")
+local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+    Title = "验证失败",
+    Text = "你并没有白名单已复制链接加qq获得白名单",
+    Duration = 10,
+})
+end
