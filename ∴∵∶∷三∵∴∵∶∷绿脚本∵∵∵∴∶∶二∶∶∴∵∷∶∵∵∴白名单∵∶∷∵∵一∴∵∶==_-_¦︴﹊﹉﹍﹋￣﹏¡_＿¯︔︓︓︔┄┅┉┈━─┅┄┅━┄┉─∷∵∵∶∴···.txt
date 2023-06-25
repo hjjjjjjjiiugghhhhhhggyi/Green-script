@@ -27,7 +27,7 @@ CoreGui:SetCore("SendNotification", {
     Text = "检测到您("..game.Players.LocalPlayer.Name..")已经被加入白名单，开始启动菜单",
     Duration = 5,
     })
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/hjjjjjjjiiugghhhhhhggyi/Green-script/main/%E7%BB%BF%20%E7%99%BD.lua",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hjjjjjjjiiugghhhhhhggyi/Green-script/main/%E7%BB%BF%E6%96%B0UI.lua",true))()
     else 
   setclipboard("850765605")
       local CoreGui = game:GetService("StarterGui")
