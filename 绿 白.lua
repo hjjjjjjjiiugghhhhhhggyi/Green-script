@@ -1980,16 +1980,3 @@ credits:Toggle("afk", "", false, function(state)
 		   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 		end)
 end)
-
-  wait(3)
-  --你的脚本
-    else
-setclipboard("2099718854")
-local CoreGui = game:GetService("StarterGui")
-
-CoreGui:SetCore("SendNotification", {
-    Title = "验证失败",
-    Text = "你并没有白名单已复制链接加qq获得白名单",
-    Duration = 10,
-})
-end
