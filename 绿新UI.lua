@@ -1,40 +1,5 @@
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
-    Title = "正在启动",
-    Text = "开始倒计时",
-    Duration = 5,
-})
-wait(2)
-local CoreGui = game:GetService("StarterGui")
-CoreGui:SetCore("SendNotification", {
-    Title = "倒计时",
-    Text = "三",
-    Duration = 5,
-})
-wait(2)
-local CoreGui = game:GetService("StarterGui")
-CoreGui:SetCore("SendNotification", {
-    Title = "倒计时",
-    Text = "二",
-    Duration = 5,
-})
-wait(2)
-local CoreGui = game:GetService("StarterGui")
-CoreGui:SetCore("SendNotification", {
-    Title = "倒计时",
-    Text = "一",
-    Duration = 5,
-})
-wait(2)
-print("Anti Afk On")
-		local vu = game:GetService("VirtualUser")
-		game:GetService("Players").LocalPlayer.Idled:connect(function()
-		   vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-		   wait(1)
-		   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-		end)
-local CoreGui = game:GetService("StarterGui")
-CoreGui:SetCore("SendNotification", {
     Title = "反挂机已自动开启",
     Text = "被踢出服务器的概率已降低",
     Duration = 5,
