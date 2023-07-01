@@ -1910,6 +1910,26 @@ tool:Button("自动杀鲨鱼",function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/Sw1ndlerScripts/RobloxScripts/main/Misc%20Scripts/sharkbite2.lua",true))()
 end)
 
+local creds = window:Tab("FE脚本",'6035145364')
+
+local tool = creds:section("脚本",true)
+
+tool:Button("C00lgui",function()
+        loadstring(game:GetObjects("rbxassetid://8127297852")[1].Source)()
+end)
+
+tool:Button("1x1x1x1",function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/JipYNCht'),true))()
+end)
+
+tool:Button("玩家（R6）",function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/XR4sGcgJ"))()
+end)
+
+tool:Button("动画中心",function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
+end)
+
 local fps = fps:section("fps ping",true)
 
 fps:Button("ping",function()
