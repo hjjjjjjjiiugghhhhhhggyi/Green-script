@@ -9,7 +9,7 @@ wait(3)
 
 qjbdbmd = {
     "Move_C",
-    "shhdjldmfn",
+    "shhdjldn",
     "fengmoshike",
     "syxhsxd",
     "HelloChina598",
