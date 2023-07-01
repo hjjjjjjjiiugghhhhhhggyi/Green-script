@@ -18,7 +18,7 @@ qjbdbmd = {
     "udjhgushu",
     "hhbhhhhhhhhhl",
     "zzzzzzzzpappaapap",
-    "skdjxjxjjk"
+    "skdjxjxjjk",
     "123789qwertyuiopasd",
 }
 if table.find(qjbdbmd, game.Players.LocalPlayer.Name) then
